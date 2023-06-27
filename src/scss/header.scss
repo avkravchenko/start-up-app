@@ -11,6 +11,9 @@
         justify-content: space-between;
         align-items: center;
     
+        .header-container__logo {
+            height: 2rem;
+        }
    
         .header-container__nav {
             .header-container__nav__list {
@@ -23,6 +26,10 @@
                     .header-container__nav__list__item__link {
                         text-decoration: none;
                         color: black;
+
+                        &:hover {
+                            color: #4374E5;
+                        }
                     }
                 }
             }
@@ -45,6 +52,10 @@
         .header-container {
             .header-container__nav {
                 display: none;
+            }
+
+            .header-container__logo {
+                height: auto;
             }
             .header-container__mobile-menu-enter {
                 display: block;

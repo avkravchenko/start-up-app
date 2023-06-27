@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="footer-container" :class="{ 'footer-container--blured': isBurgerClicked }">
-            <img class="footer-container__logo" src="../assets/logo-1.png" alt="">
+            <img class="footer-container__logo" src="../assets/logo-1.svg" alt="">
             <p>© 2016-2022 startup-it.ru</p>
         </div>
     </footer>
