@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    max-height: 500px;
+    max-width: 350px;
+    text-align: center;
+    background-color: #fff;
+    filter: drop-shadow(2px 2px 5px grey);
+    border-radius: 1rem;
+    padding: 4rem 1rem;
+
+    &:hover {
+        filter: drop-shadow(2px 2px 5px #4374e58d);
+    }
+  }

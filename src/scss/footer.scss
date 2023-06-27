@@ -1,0 +1,30 @@
+.footer {
+    background-color: #303030;
+
+    .footer-container {
+        height: 7.5vh;
+        margin: 0 auto;
+        padding: 1rem;
+        max-width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+
+    .footer-container--blured {
+        filter: blur(5px);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer {
+        background-color: #303030;
+    
+        .footer-container {
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+    }
+}
