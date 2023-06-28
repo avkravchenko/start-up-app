@@ -18,6 +18,7 @@
                     <p class="header-container__mobile-menu-exit" @click="toggleBurger"><close-outlined /></p>
                 </div>
                
+                
                 <ul class="mobile-header-container__nav__list">
                     <li class="mobile-header-container__nav__list__item"><a class="mobile-header-container__nav__list__item__link" href="#">О компании</a></li>
                     <li class="mobile-header-container__nav__list__item"><a class="mobile-header-container__nav__list__item__link" href="#">Услуги</a></li>
