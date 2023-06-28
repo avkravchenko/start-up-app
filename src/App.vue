@@ -24,9 +24,11 @@ export default {
 
 <style>
   #app {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
+    background-color: #F5F5F595;
   }
 </style>

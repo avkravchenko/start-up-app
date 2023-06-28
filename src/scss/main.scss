@@ -1,8 +1,8 @@
 .main {
+    flex: 1;
     display: flex;
-    background-color: #e6e6e68c;;
     justify-content: center;
-    min-height: 85vh;
+    align-items: center;
 
     .main-container {
         margin: 1rem;
@@ -22,6 +22,7 @@
     .main {
         .main-container {
             margin: 5rem auto;
+            padding: 1rem;
             flex-direction: column;
         }
     }

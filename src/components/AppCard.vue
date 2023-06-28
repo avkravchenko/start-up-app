@@ -6,8 +6,8 @@
     <div v-else>
       <img src="../assets/arrow-off.png" alt="">
     </div>
-    <h2>{{ headerText }}</h2>
-    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+    <h2 class="card__header">{{ headerText }}</h2>
+    <p class="card__content">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
   </div>
 </template>
 
